@@ -195,8 +195,6 @@ bool unload(void)
     int i = 0;
     while (HASHES[i] != -1)
     {
-        node *lamp = table[ HASHES[i] ];
-        node *lamp2 = table[28441];
         // printf("f.");
         if (table[ HASHES[i] ] == NULL)
         {
